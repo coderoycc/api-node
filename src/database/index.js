@@ -8,7 +8,6 @@ var conn = null;
 const database = (collection) => new Promise(
   async (resolve, reject) => {
   try{
-
     if(!conn){
       const client = new MongoClient(Config.mongoUri);
       conn = await client.connect() //conexion asincrona

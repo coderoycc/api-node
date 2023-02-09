@@ -1,0 +1,5 @@
+Para este crud se usa el motor de MongoDB que nos 
+permite acceder a una base de datos en la nube.
+cloud.mongodb.com
+
+Se envia una URI con la contraseña y el usuario
